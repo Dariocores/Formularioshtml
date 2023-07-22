@@ -1,0 +1,62 @@
+.body {
+    background-image: url("./img/fondo01.jpg");
+    background-size: cover;
+}
+.titleh2{
+    color:aquamarine;
+    
+}
+
+
+.formularioone *:required {
+    border-color: rgb(224, 14, 14);
+}
+.formularioone *:valid {
+    border-color: rgb(241, 221, 35);
+}
+
+.formularioone *:focus {
+    border-color: rgb(42, 245, 235);
+}
+
+.formularioone {
+    color: rgb(255, 0, 85);
+    background-color: rgb(168, 168, 202);
+    border: 5px solid black;
+    width: 450px;
+    height: 300px;
+    
+}
+
+
+
+.formulariotwo {
+    color: beige;
+    background-color: rgb(18, 107, 190);
+    border: 5px solid black;
+    width: 450px;
+    height: 410px;
+}
+
+.formulariotwo *:valid {
+    border-color: aqua;
+}
+
+.formulariothree {
+    color: rgb(208, 236, 53);
+    background-color: darkcyan;
+    border:5px solid black;
+    width: 450px;
+    height: 410px;
+}
+
+.formulariothree *:valid {
+border-color: darkorchid;
+}
+.tableone {
+    background-color: white;
+    border: 5px solid green;
+    width: 450px;
+    height: 500px;
+    
+}
